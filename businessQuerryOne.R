@@ -15,6 +15,8 @@ regressor = lm(formula = rating ~ calories+protein+fat
 # Predicting the Test set results
 y_pred = predict(regressor, newdata = test_set)
 
+regressor
+
 # # Visualising the Training set results
 # library(ggplot2)
 # ggplot() +
